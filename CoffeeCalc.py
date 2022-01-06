@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 
 def testCommand():
-    pass
+    print("testCommand runned")
 
 root = Tk()
 root.title("Coffee calculator")
