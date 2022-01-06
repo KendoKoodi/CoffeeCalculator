@@ -20,8 +20,8 @@ ttk.Label ( mainframe, textvariable=testVar).grid ( column=2, row=2, sticky=( W,
 
 ttk.Button ( mainframe, text="testButton", command=testCommand ).grid ( column=3, row=3, sticky=W )
 
-ttk.Label ( mainframe, text="userEntry" ).grid( column=3, row=1, sticky=W )
-ttk.Label ( mainframe, text="testVar" ).grid( column=1, row=2, sticky=E )
+ttk.Label ( mainframe, text="userEntry1" ).grid( column=3, row=1, sticky=W )
+ttk.Label ( mainframe, text="testVar1" ).grid( column=1, row=2, sticky=E )
 ttk.Label ( mainframe, text="testVar2" ).grid( column=3, row=2, sticky=W )
 
 for child in mainframe.winfo_children():
